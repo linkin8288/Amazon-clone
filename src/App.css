@@ -1,0 +1,5 @@
+/* the default margin is 10, remove it to clearn invisible
+margin */
+* {
+  margin: 0;
+}

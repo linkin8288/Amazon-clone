@@ -1,0 +1,83 @@
+.header {
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* sticky means stays on top and does not move */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header__logo {
+    width: 100px;
+    object-fit: contain;
+    /* contain means always stays at the same ratio nomatter how the screen changes */
+    margin: 0 20px;
+    margin-top: 18px;
+}
+
+.header__search {
+    display: flex;
+    flex: 1;
+    /* flex 1 will take as much space as it needs */
+    height: 40px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.header__searchInput {
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.header__searchIcon {
+    padding: 5px;
+    height: 22px !important;
+    /* material icon component has theirown css rule, you need to add !important to change it */
+    background-color: #febd69;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.header__link {
+    color: white;
+    text-decoration: none;
+}
+
+.header__option {
+    display: flex;
+    flex-direction: column;
+     /* margin is outside of element, padding is inside of element */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header__optionLineOne {
+    font-size: 10px;
+}
+
+.header__optionLineTwo {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.header__optionBasket {
+    display: flex;
+    align-items: center;
+}
+
+.header_basketCount {
+    margin-left: 10px;
+    margin-right: 10px;
+}
