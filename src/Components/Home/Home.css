@@ -1,0 +1,22 @@
+.home {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home__row {
+    display: flex;
+    /* pop up as a card component with Product.css and Home.js */
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.home__image {
+    width: 100%;
+    /* width 100% means the picture fit 100% to the websize */
+    mask-image: linear-gradient(to bottom, rgb(0, 0, 0, 1), rgba(0, 0, 0, 0) );
+    /* masking gives you the option of using an image as a mask layer. */
+    z-index: -1;
+    /* pulls up */
+    margin-bottom: -150px;
+    
+}
