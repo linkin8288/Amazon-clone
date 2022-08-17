@@ -1,3 +1,10 @@
+// Build Amazon web page
+// change TailwindCSS to src as parent folder
+// intall Google Authentication, .env.local
+// Firebase
+// Stripe
+// Redux & Tollkit
+
 import Head from 'next/head';
 import Banner from '../components/Banner';
 import Header from '../components/Header';
