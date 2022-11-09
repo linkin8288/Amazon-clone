@@ -2,6 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+# https://amazon-clone-eta-pink.vercel.app/
+
 First, run the development server:
 
 ```bash
